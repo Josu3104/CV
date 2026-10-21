@@ -19,6 +19,20 @@
             line-height: 1.6;
         }
 
+        .resume-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .profile-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
         h1 {
             margin-bottom: 0;
             color: #174a67;
@@ -59,9 +73,14 @@
 
 <body>
 
-    <h1>Josue Gavidia</h1>
-    <h3>Software Engineer</h3>
-    <p><b>San Pedro Sula, Cortes | +504 3375-1005 | <u>josuemanuel0331@gmail.com</u> </b></p>
+    <header class="resume-header">
+        <div>
+            <h1>Josue Gavidia</h1>
+            <h3>Software Engineer</h3>
+            <p><b>San Pedro Sula, Cortes | +504 3375-1005 | <u>josuemanuel0331@gmail.com</u> </b></p>
+        </div>
+        <img class="profile-photo" src="cv-pic.png" alt="Profile Photo">
+    </header>
     <b>
         <hr>
     </b>
